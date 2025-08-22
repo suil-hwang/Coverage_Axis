@@ -4,9 +4,12 @@
     - The point cloud can be **unoriented** -> check out our latest SIGGRAPH 2023 work [here](https://xrvitd.github.io/Projects/GCNO/index.html).
   - Operations are accelerated by GPU, e.g., computation of coverage matrix and winding number for a mesh.
   - We provide codes for building connectivity in [skel_connection](skel_connection): [README.md](skel_connection%2Freadme.md).
-  - We recently added **an integrated pipeline (credit to [Jiaxin Wang](https://github.com/Net-Maker)): [integrated_qmat_coverage_axis.py](https://github.com/Frank-ZY-Dou/Coverage_Axis/blob/main/integrated_qmat_coverage_axis.py)** You will be using Q-MAT (see more instructions [here](https://github.com/Net-Maker/QMAT/blob/7a50ae6ad579aabf0cac92b687ffd1c8363ab84d/README.md)).
 - 🌟Coverage Axis++.
   - Coverage Axis++: Efficient Inner Point Selection for 3D Shape Skeletonization: https://arxiv.org/abs/2401.12946.
+
+We recently added **an integrated pipeline (credit to [Jiaxin Wang](https://github.com/Net-Maker)): [integrated_qmat_coverage_axis.py](https://github.com/Frank-ZY-Dou/Coverage_Axis/blob/main/integrated_qmat_coverage_axis.py)** You will be using Q-MAT (see more instructions [here](https://github.com/Net-Maker/QMAT/blob/7a50ae6ad579aabf0cac92b687ffd1c8363ab84d/README.md)).
+
+
 
 Some geometry tools for MAT and related topics: [Geometry_Tools](https://github.com/Frank-ZY-Dou/Geometry_Tools).
 
