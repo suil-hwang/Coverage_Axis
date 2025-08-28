@@ -433,3 +433,13 @@ def main():
 if __name__ == "__main__":
     success = main()
     sys.exit(0 if success else 1) 
+
+'''
+python integrated_qmat_coverage_axis.py \
+    --mesh ./input/hand/hand.off \
+    --ma ./input/hand/hand.ma \
+    --qmat ./QMAT/build/QMAT  \
+    --vertices 500 \
+    --samples 3000 \
+    --dilation 0.05
+'''
